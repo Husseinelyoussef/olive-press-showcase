@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-Material%203-02569B?logo=flutter" alt="Flutter">
   <img src="https://img.shields.io/badge/Firebase-Auth%20%7C%20Firestore-FFCA28?logo=firebase&logoColor=black" alt="Firebase">
-  <img src="https://img.shields.io/badge/Language-Arabic%20RTL%20%2F%20English-4e6122" alt="Arabic / English">
+  <img src="https://img.shields.io/badge/Language-English%20%2F%20Arabic%20RTL-4e6122" alt="English / Arabic">
   <img src="https://img.shields.io/badge/Status-In%20production-2e7d32" alt="In production">
 </p>
 
@@ -22,12 +22,22 @@ It runs in a real olive mill during the 2026 season, used daily by the owner and
 
 ## Screens
 
-Screen previews with demo data (no real customer information).
+Screen previews with demo data (no real customer information). The app is fully bilingual: **English** and **Arabic (RTL)**.
+
+### English
 
 | Daily work | Turn registration | Pressing invoice |
 |:---:|:---:|:---:|
-| <img src="screenshots/daily-work.png" width="250"> | <img src="screenshots/reception.png" width="250"> | <img src="screenshots/invoice.png" width="250"> |
+| <img src="screenshots/en-daily-work.png" width="250"> | <img src="screenshots/en-reception.png" width="250"> | <img src="screenshots/en-invoice.png" width="250"> |
 | **Customer file** | **Movements log** | **Trial balance** |
+| <img src="screenshots/en-customer-file.png" width="250"> | <img src="screenshots/en-movements.png" width="250"> | <img src="screenshots/en-trial-balance.png" width="250"> |
+
+### Arabic (RTL)
+
+| العمل اليومي | تسجيل دور | فاتورة عصر |
+|:---:|:---:|:---:|
+| <img src="screenshots/daily-work.png" width="250"> | <img src="screenshots/reception.png" width="250"> | <img src="screenshots/invoice.png" width="250"> |
+| **ملف الزبون** | **سجل الحركات** | **ميزان المراجعة** |
 | <img src="screenshots/customer-file.png" width="250"> | <img src="screenshots/movements.png" width="250"> | <img src="screenshots/trial-balance.png" width="250"> |
 
 ---
@@ -82,7 +92,7 @@ Screen previews with demo data (no real customer information).
 ## Tech stack & architecture
 
 - **Flutter** (Material 3)
-  - Arabic RTL and English, using ARB localization.
+  - English and Arabic (RTL), using ARB localization.
   - Tablet- and web-friendly layouts.
 - **Firebase Authentication**: role-based users (platform admin, mill owner, manager, staff, customer).
 - **Cloud Firestore**: multi-tenant (`mills/{millId}/…`).
